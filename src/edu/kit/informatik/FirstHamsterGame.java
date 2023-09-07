@@ -52,6 +52,6 @@ public class FirstHamsterGame extends InspectableSimpleHamsterGame {
      * Implement the method turnRight, that lets Paule turn right.
      */
     private void turnRight() {
-        //nothing here
+        
     }
 }
