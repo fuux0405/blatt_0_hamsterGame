@@ -22,8 +22,3 @@ To install Java, set up your Integrated Development Environment (IDE), and clone
   Go to `Eclipse` > `Preferences` > `Java` > `Compiler` and set the `Compiler compliance level` to `17`.
 - Start the Hamster Simulator by hitting the "Play Button" in the top left corner or in the menu under `Run` > `Run`.
 
-### Run the project via command line:
-- Make sure to have set the correct Java version.
-  Test with running ```java -version```
-- Start app using Maven:
-  ```mvn compile exec:java```
