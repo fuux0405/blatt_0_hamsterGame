@@ -9,7 +9,15 @@
     <name>Blatt-0---Bonus</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<hamster.version>5.0.0</hamster.version>
     </properties>
+	<dependencies>
+		<dependency>
+			<groupId>de.hamstersimulator.objectsfirst</groupId>
+			<artifactId>inspector</artifactId>
+			<version>${hamster.version}</version>
+		</dependency>
+	</dependencies>
     <build>
         <sourceDirectory>${project.basedir}/src</sourceDirectory>
         <resources>
